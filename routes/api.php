@@ -40,3 +40,7 @@ Route::group([
     Route::post('persons/state','PersonController@state');
 });
 
+
+Route::get('/rutaNueva',function(){
+ return "Hola";
+});

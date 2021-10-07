@@ -120,6 +120,18 @@ class personasSeeder extends Seeder
                 'profecions_id' => 1,
                 'nivel_educativos_id' => 3
             ],
+            [
+                'identificacion' => '3849348234',
+                'nombre' => 'Luz Mery',
+                'apellido' => 'Tenjo',
+                'direccion' => 'carr 6w#89-90 ',
+                'telefono' => '3223280873',
+                'email' => 'pipe@pipe.com',
+                'estado' => true,
+                'tipo_documens_id' => 1,
+                'profecions_id' => 1,
+                'nivel_educativos_id' => 3
+            ],
         );
         foreach ($personasData as $persona ) {
             personas::updateOrCreate($persona);
